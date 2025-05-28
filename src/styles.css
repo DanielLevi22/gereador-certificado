@@ -29,6 +29,7 @@
 
   --color-button-primary-background: #5a67d8;
   --color-button-primary-text: #ffffff;
+  --gradient-hero: linear-gradient(90deg, #1A2856 0%, #334EA9 100%);
 
   --color-card-background: #1a202c;
 }
