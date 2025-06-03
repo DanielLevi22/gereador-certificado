@@ -25,7 +25,7 @@ export class ButtonComponent {
     };
     const variantClasses = {
       primary: 'bg-gradient-to-r from-[#1A2856] to-[#334EA9] text-white focus:ring-[#1A2856]',
-      secondary: 'bg-blue-dark text-grayscale-gray-100  focus:ring-gray-500',
+      secondary: 'bg-blue-dark  text-grayscale-gray-100  focus:ring-gray-500',
       outline: 'border-2 border-[#1A2856] text-[#1A2856] hover:bg-[#1A2856] hover:text-white focus:ring-[#1A2856]',
       text: 'text-[#1A2856] hover:bg-gray-100 focus:ring-[#1A2856]',
       danger: 'bg-red-600 text-white hover:bg-red-700 focus:ring-red-500',

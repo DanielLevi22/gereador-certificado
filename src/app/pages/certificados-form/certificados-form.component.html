@@ -1,0 +1,23 @@
+<app-base-ui>
+
+  <h1 class="text-grayscale-gray-300 text-2xl font-bold text-center">Gerar certificado</h1>
+  <p class="text-grayscale-gray-200 text-center">Preencha os campos abaixo para gerar o certificado</p>
+
+  <div class="p-12 mt-8 flex flex-col  justify-center gap-4 border border-grayscale-gray-100 rounded-lg ">
+    <div class="space-y-5">
+      <div>
+        <p class="text-grayscale-gray-300 text-2xl font-bold ">Novo certificado</p>
+        <p class="text-blue-dark">Nome completo</p>
+        <input type="text" placeholder="Digite o nome completo" class="w-full p-2.5 rounded-lg border border-grayscale-gray-100 text-grayscale-gray-200">
+      </div>
+      <div class="flex flex-col gap-2">
+        <p text-blue-dark>Atividade</p>
+        <div class="w-full flex gap-2">
+          <input type="text" placeholder="Digite o nome completo" class=" flex-1 p-2.5 rounded-lg border border-grayscale-gray-100 text-grayscale-gray-200">
+          <app-button [variant]="'primary'" [disabled]="true">Adicionar</app-button>
+        </div>
+      </div>
+    </div>
+    <app-button [variant]="'primary'" [customClass]="'w-full'">Gerar certificado</app-button>
+  </div>
+</app-base-ui>

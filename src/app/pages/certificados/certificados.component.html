@@ -1,0 +1,12 @@
+<app-base-ui>
+
+    <h1 class="text-grayscale-gray-300 text-2xl font-bold text-center">Certificados gerados</h1>
+    <p class="text-grayscale-gray-200 text-center">Visualize todos os certificados gerados</p>
+
+    <div class="p-12 mt-8 flex flex-col items-center justify-center gap-4 border border-grayscale-gray-100 rounded-lg">
+      <img src="/Certificate.svg" alt="certificado" class="size-10">
+      <p class="text-grayscale-gray-300 text-2xl font-bold">Nenhum certificado gerado</p>
+      <p class="text-grayscale-gray-200 text-center">Gere certificados para consultar o histórico</p>
+      <app-button [variant]="'secondary'" >Gerar certificado</app-button>
+    </div>
+</app-base-ui>
